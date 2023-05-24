@@ -51,7 +51,7 @@ p1{
 .container{
     overflow: scroll;
     z-index: 1; 
-    background: #0ccafe;
+    background: #be0b39;
     position: fixed;
     width: 100%;
     margin: 0 auto;
@@ -72,30 +72,29 @@ header::after{
     
 }
 footer{
-    height: auto;
+    
     position: relative;
     bottom: 0;
     width: auto;
     text-align: center;
-    margin-top: 10px;
-    padding-bottom: 0px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background: #0ccafe;
+    
+    padding-bottom: 0;
+    background: #be0b39;
     color: white;
 }
 
 .page-container {
     position: relative;
     min-height: 75vh;
-    z-index: ;
+    text-align: center;
   }
 .logo{
     border-right: thin solid black;
     border-bottom: thin solid black;
     width: 120px;
     float: left;
-    height: 70px;
+    height: 8
+    0px;
 }
 
 .search{
@@ -363,7 +362,7 @@ pre{
     margin-left: 74.5vw !important;
     margin-right: 11vw !important;
     text-align: center;
-    background-color: #0ccafe;
+    background-color: #be0b39;
     z-index: 3;
     position: fixed;
 }
@@ -384,4 +383,21 @@ pre{
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.ftlogo{
+    width: 100%;
+    height: 200px;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+}
+
+.flyer{
+    margin: 20px;
+}
+
+.donation-banner{
+    float: left;
+
 }
