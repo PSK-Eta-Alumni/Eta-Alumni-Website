@@ -394,10 +394,16 @@ pre{
 }
 
 .flyer{
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
 }
 
 .donation-banner{
-    float: left;
+    float: right;
+    background-color: red;
+    color: black;
+    z-index: 1;
+    width: 15%;
 
 }
