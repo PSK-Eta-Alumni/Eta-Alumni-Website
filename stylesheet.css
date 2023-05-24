@@ -405,5 +405,30 @@ pre{
     color: black;
     z-index: 1;
     width: 15%;
-
 }
+
+.samp-box{
+    background-color: silver;
+    text-align: left;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+    padding: 10px;
+  }
+  .grid-item {
+    flex: 1 0 21%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    text-align: center;
+  }
+
+  .title  p1{
+    font-size: 30px;
+  }
