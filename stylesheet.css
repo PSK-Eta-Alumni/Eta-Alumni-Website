@@ -3,7 +3,7 @@ body{
     margin: 0;
     background-color: rgb(233, 247, 248);
     align-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Palatino;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -20,7 +20,7 @@ h1 {
 
 .DCH {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-    position: relative;
+    position:relative;
     margin: auto;
     left: 0%;
     right: 0%;
@@ -49,6 +49,7 @@ p1{
 
 
 .container{
+    
     overflow: scroll;
     z-index: 1; 
     background: #be0b39;
@@ -58,6 +59,9 @@ p1{
     height: 70px;
     
 }
+.container ::-webkit-scrollbar{
+    display: none;
+  }
 
 header{
     height: 70px;
@@ -72,13 +76,13 @@ header::after{
     
 }
 footer{
-    
     position: relative;
-    bottom: 0;
+    bottom: 0px;
+    border-width: 0px;
     width: auto;
     text-align: center;
-    
-    padding-bottom: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     background: #be0b39;
     color: white;
 }
@@ -386,9 +390,10 @@ pre{
 }
 
 .ftlogo{
-    width: 100%;
-    height: 200px;
-    padding: 0px;
+    width: 98%;
+    height: 250px;
+    padding-top: 9px;
+    padding-bottom: 5px;
     border-width: 0px;
     margin: 0px;
 }
@@ -401,10 +406,11 @@ pre{
 
 .donation-banner{
     float: right;
-    background-color: red;
+    background-color: #be0b39;
     color: black;
     z-index: 1;
     width: 15%;
+    
 }
 
 .samp-box{
@@ -427,8 +433,41 @@ pre{
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     margin: 20px;
     text-align: center;
+    font-family: Palatino
+;
   }
 
   .title  p1{
     font-size: 30px;
   }
+.heading-title{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    animation: fadeIn 1s;
+    background-color: white;
+
+}
+
+.donation_list > li{
+    text-align: left;
+}
+.donation_list > li > .p4{
+    text-align: center;
+}
+
+.center > ul{
+    list-style-type: none;
+    columns: 2;
+    -webkit-columns: 2;
+  -moz-columns: 2;
+}
